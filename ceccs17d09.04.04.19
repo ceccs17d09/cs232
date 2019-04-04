@@ -1,0 +1,58 @@
+Script started on 2019-04-04 09:57:30+0530
+]0;s4d1@tpc-Veriton-Series: ~[01;32ms4d1@tpc-Veriton-Series[00m:[01;34m~[00m$ ssh cs17d09@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d09@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+$ ls
+cs.txt	examples.desktop
+$ cat > me.txt
+anujadev
+^Z[1] + Stopped                    cat 1>me.txt
+$ cat me.txt
+anujadev
+$ pwd
+/home/cs17d09
+$ du
+4	./.cache
+40	./.config/plank/dock1/launchers
+44	./.config/plank/dock1
+48	./.config/plank
+52	./.config
+96	.
+$ ls
+cs.txt	examples.desktop  me.txt
+$ cat >result.txt
+^[[A    CHN17CS001 7
+CHN17CS002
+CHN17CS002 8
+^Z[2] + Stopped                    cat 1>result.txt
+$ LS
+-sh: 8: LS: not found
+$ ls
+cs.txt	examples.desktop  me.txt  result.txt
+$ du
+4	./.cache
+40	./.config/plank/dock1/launchers
+44	./.config/plank/dock1
+48	./.config/plank
+52	./.config
+100	.
+$ ^Z
+$ exit
+You have stopped jobs.
+$ exit
+Connection to 192.168.0.30 closed.
+]0;s4d1@tpc-Veriton-Series: ~[01;32ms4d1@tpc-Veriton-Series[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2019-04-04 10:01:05+0530
