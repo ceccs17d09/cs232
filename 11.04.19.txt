@@ -1,0 +1,14 @@
+clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower:~$ sudo apt-get install nginx[sudo] password for clab1: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+nginx is already the newest version (1.10.3-0ubuntu0.16.04.3).
+0 upgraded, 0 newly installed, 0 to remove and 31 not upgraded.
+clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower:~$ sudo gedit /etc/n
+nanorc         networks       nginx/         
+network/       newt/          nsswitch.conf  
+clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower:~$ sudo gedit /etc/nginx/sites-enabled/default 
+clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower:~$ sudo gedit /var/www/html/index.
+index.html               index.nginx-debian.html  
+clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower:~$ sudo gedit /var/www/html/index.nginx-debian.html
+
